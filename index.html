@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreya | Portfolio</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background: radial-gradient(circle at 30% 20%, #0f1b2e, #050912 70%);
+    color:#e6f1ff;
+    overflow-x:hidden;
+}
+
+/* Animated Grid */
+body::before{
+    content:"";
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:
+        linear-gradient(rgba(0,255,200,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,255,200,0.05) 1px, transparent 1px);
+    background-size:50px 50px;
+    animation:gridMove 18s linear infinite;
+    z-index:-1;
+}
+
+@keyframes gridMove{
+    0%{background-position:0 0;}
+    100%{background-position:50px 50px;}
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    padding:60px 0;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:70px;
+}
+
+.logo{
+    font-weight:800;
+    font-size:22px;
+    letter-spacing:2px;
+    background:linear-gradient(90deg,#00ffd5,#00aaff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:40px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#e6f1ff;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#00ffd5;
+}
+
+/* HERO */
+.hero{
+    display:grid;
+    grid-template-columns:1.2fr 1fr;
+    align-items:center;
+    gap:50px;
+    margin-bottom:120px;
+}
+
+.hero h1{
+    font-size:48px;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+.hero span{
+    background:linear-gradient(90deg,#00ffd5,#00aaff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.hero p{
+    color:#9fb3c8;
+    line-height:1.6;
+    margin-bottom:15px;
+}
+
+.btn{
+    margin-top:25px;
+    padding:14px 35px;
+    border-radius:40px;
+    border:1px solid #00ffd5;
+    background:transparent;
+    color:#00ffd5;
+    cursor:pointer;
+    text-decoration:none;
+    display:inline-block;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#00ffd5;
+    color:#050912;
+    box-shadow:0 0 20px #00ffd5;
+}
+
+/* PROFILE CARD WITH GLOW */
+.profile-card{
+    position:relative;
+    padding:40px;
+    border-radius:25px;
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(0,255,200,0.3);
+    backdrop-filter:blur(12px);
+    text-align:center;
+    box-shadow:0 0 30px rgba(0,255,200,0.25);
+    animation:glowPulse 3s ease-in-out infinite alternate;
+}
+
+@keyframes glowPulse{
+    from{
+        box-shadow:0 0 20px rgba(0,255,200,0.2);
+    }
+    to{
+        box-shadow:0 0 40px rgba(0,255,200,0.6);
+    }
+}
+
+/* SECTION */
+.section-title{
+    font-size:28px;
+    margin:100px 0 40px;
+    border-left:4px solid #00ffd5;
+    padding-left:15px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:rgba(255,255,255,0.04);
+    padding:30px;
+    border-radius:20px;
+    border:1px solid rgba(0,255,200,0.2);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px rgba(0,255,200,0.3);
+}
+
+.card p{
+    color:#8aa4c2;
+    font-size:14px;
+}
+
+@media(max-width:900px){
+    .hero{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+    <div class="logo">SHREYA.dev</div>
+    <ul>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div>
+        <h1>Hi, I'm <span>Shreya</span></h1>
+        <p>
+            I'm a second-year Information Technology student passionate about 
+            building impactful digital experiences and continuously exploring 
+            different areas of software development.
+        </p>
+        <p>
+            I actively participate in hackathons and build projects 
+            to strengthen my problem-solving skills.
+        </p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+
+    <div class="profile-card">
+        <h3> Aspiring Software Developer </h3>
+        <p style="margin-top:10px;">
+            IT Student • Problem Solver • Tech Explorer • Hackathon Participant
+        </p>
+    </div>
+</section>
+
+<h2 class="section-title" id="skills">Skills</h2>
+
+<div class="grid">
+    <div class="card">
+        <h3>Programming</h3>
+        <p> C, C++, Object-Oriented Programming (OOP)</p>
+    </div>
+    <div class="card">
+        <h3>Core Concepts</h3>
+        <p> Data Structures & Algorithms (DSA), DBMS</p>
+    </div>
+    <div class="card">
+        <h3>Tools & Platforms</h3>
+        <p>GitHub, VS Code</p>
+    </div>
+</div>
+
+<h2 class="section-title" id="projects">Projects</h2>
+
+<div class="grid">
+    <div class="card">
+        <h3>Barclays Project</h3>
+        <p>
+            Developed a project as part of the Barclays initiative,
+            Worked in a team of 5 to create a Content Fraud Detection system aimed at identifying misleading or suspicious digital content. I contributed by implementing logical validation and handling data efficiently using C/C++. Collaborating closely with teammates, we analyzed patterns, detected anomalies, and ensured data integrity. This project not only strengthened my technical skills but also gave me insight into real-world fraud detection challenges, teamwork, and problem-solving in a practical setting.
+
+           Skills & Concepts: C, C++, Pattern Detection, Logical Validation, File Handling, Data Integrity
+        </p>
+    </div>
+    <div class="card">
+        <h3>Mario Game</h3>
+        <p>
+            Built a Mario-inspired game implementing programming logic,
+            Developed a Mario-style platformer game as part of a 4-member team. I focused on implementing core game mechanics like character movement, collision detection, and scoring using C++. Together, we designed levels, integrated graphics, and tested the game for smooth gameplay. This project enhanced my understanding of OOP concepts, event-driven programming, and teamwork while making a fun, interactive application.
+
+            Skills & Concepts: C, C++, Object-Oriented Programming, Event Handling, Game Logic, Animation
+        </p>
+    </div>
+</div>
+
+<h2 class="section-title" id="contact">Contact</h2>
+
+<div class="card">
+    <p>Email: <a href="mailto:shreyaditya1234@gmail.com">shreyaditya1234@gmail.com</a></p>
+     <p> Github :
+<a href="https://github.com/shreyasahu22/" target="_self">
+          Visit My GitHub
+</a>
+</p>
+
+<p> Linkedin :
+ <a href="https://www.linkedin.com/in/shreya-sahu-b952a2353">
+Visit My LinkedIn
+</a>
+</p>
+</div>
+
+</div>
+
+</body>
+</html>
