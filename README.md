@@ -37,7 +37,7 @@ A 2D Mario-inspired game developed collaboratively in C++.
 ---
 
 ## 🔗 Connect with Me
-- [LinkedIn](www.linkedin.com/in/shreya-sahu-b952a2353)  
+- [LinkedIn]( www.linkedin.com/in/shreya-sahu-b952a2353 )  
 - [Portfolio](https://shreyasahu22.github.io/my-portfolio/)  
 
 ---
