@@ -1,7 +1,7 @@
-# Hi there 👋, I'm Shreya Sahu
+# Shreya Sahu 
 
-Welcome to my GitHub! I'm an **aspiring software developer** and a passionate **CS student**. I love exploring new technologies and building projects, often collaborating in **team environments** to bring ideas to life.
-
+Aspiring Software Developer | IT Student  
+Passionate about exploring new technologies and building impactful projects, often in **collaborative team environments**.
 ---
 
 ## 💻 Skills & Expertise
@@ -16,10 +16,10 @@ Welcome to my GitHub! I'm an **aspiring software developer** and a passionate **
 ## 🛠 Team Projects
 
 
-### 2. Barclays Project Portfolio – Team Project
-A mini portfolio website created with a team to showcase projects and skills.  
+### 2. Barclays Project – Team Project
+A mini team project created to showcase our projects and skills.  
 **My Contributions:**
-- HTML & CSS styling for interactive UI  
+- HTML & CSS styling  
 - Project content layout and linking  
 **Team Highlights:**
 - Collaborative design decisions  
