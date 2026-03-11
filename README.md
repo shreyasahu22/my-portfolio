@@ -4,7 +4,7 @@ Aspiring Software Developer | IT Student
 Passionate about exploring new technologies and building impactful projects, often in **collaborative team environments**.
 ---
 
-## 💻 Skills & Expertise
+##  Skills & Expertise
 - **Programming Languages:** C, C++
 - **Core Concepts:** OOP, DSA, DBMS
 - **Web Development:** HTML, CSS (learning)
@@ -13,7 +13,7 @@ Passionate about exploring new technologies and building impactful projects, oft
 
 ---
 
-## 🛠 Team Projects
+##  Team Projects
 
 
 ### 2. Barclays Project – Team Project
@@ -36,20 +36,20 @@ A 2D Mario-inspired game developed collaboratively in C++.
 
 ---
 
-## 🔗 Connect with Me
+##  Connect with Me
 - [LinkedIn](https://www.linkedin.com/in/shreya-sahu-b952a2353/)  
 - [Portfolio](https://shreyasahu22.github.io/my-portfolio/)  
 
 ---
 
-## 🌱 Currently Learning
+##  Currently Learning
 - React.js  
 - Advanced SQL concepts  
 - Web app development  
 
 ---
 
-## 🎯 Fun Fact
+##  Fun Fact
 I enjoy **learning by doing** and contributing to team projects. Collaborating with peers helps me grow faster and build meaningful projects. 🏆
 
 ---
